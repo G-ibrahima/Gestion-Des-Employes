@@ -5,7 +5,7 @@
 
     <div class="w-full bg-base-200">
         <div class="mb-4">
-            <a href="" class="btn btn-primary w-full">Ajouter un employe</a>
+            <a href="{%url 'ajouter_employes' %}" class="btn btn-primary w-full">Ajouter un employe</a>
         </div>
 
         <div class="space-y-4 w-full">
@@ -22,8 +22,8 @@
                 </div>
 
                 <div class="space-x-2">
-                    <a href="" class="btn btn-primary btn-soft btn-sm">Modifier</a>
-                    <a href="" class="btn btn-primary btn-soft  btn-sm">Supprimer</a>
+                    <a href="{%url 'modifier_employes' emp.id %}" class="btn btn-primary btn-soft btn-sm">Modifier</a>
+                    <a href="{%url 'supprimer_employes' emp.id %}" class="btn btn-primary btn-soft  btn-sm">Supprimer</a>
                 </div>
 
             </div>
