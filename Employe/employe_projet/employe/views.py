@@ -1,7 +1,7 @@
 from django.shortcuts import render , redirect, get_object_or_404
 
 from .models import *
-from  .forms import EmployeForm
+from .forms import EmployeForm
 # Create your views here.
 
 def list_employes(request):

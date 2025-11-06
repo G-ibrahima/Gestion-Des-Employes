@@ -8,6 +8,9 @@
             {{form.email}}
             {{form.poste}}
             {{form.salaire}}
-            <button type= "submit" class="btn btn-primary">Enregistrer</button>
+            <div>
+                <button type= "submit" class="btn btn-primary">Enregistrer</button>
+                <a href="{%url 'list_employes' %}" class="btn btn-primary">Retounez vers la liste</a>
+            </div>
         </form>
     {% endblock %}
