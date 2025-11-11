@@ -1,0 +1,14 @@
+GET http://127.0.0.1:8000/snippets/
+
+
+###
+DELETE http://127.0.0.1:8000/snippets/6
+
+
+###
+POST http://127.0.0.1:8000/snippets/
+Content-Type: application/json
+
+ {
+    "code": "print(\"hello, world\")\n"
+ }
