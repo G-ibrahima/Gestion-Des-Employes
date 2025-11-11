@@ -2,7 +2,7 @@ GET http://127.0.0.1:8000/snippets/
 
 
 ###
-DELETE http://127.0.0.1:8000/snippets/6
+DELETE http://127.0.0.1:8000/snippets/6/
 
 
 ###
