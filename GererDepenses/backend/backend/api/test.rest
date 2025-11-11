@@ -27,4 +27,9 @@ Content-Type: application/json
 
 ###
 
-PATCH 
+PATCH http://127.0.0.1:8000/api/transactions/29b8b7c1-1aea-413d-9545-d5adb3164a2c/
+Content-Type: application/json
+
+{
+  "text": "Salaire juin"
+}
